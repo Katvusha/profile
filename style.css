@@ -1,0 +1,100 @@
+body {
+  font-family: "Times New Roman";
+  background-color: #16213E;
+  color: #D6EFED;
+  text-align: center;
+}
+
+h2,h3 {
+  font-family: "Georgia";
+  color: #B7D3DF;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Georgia";
+  color: white;
+  text-align: center;
+}
+
+a {
+  color: yellow;
+  text-align: center;
+  padding: 10px;
+
+}
+
+a:hover {
+  color: red;
+}
+
+span {
+  color: white;
+  text-align: center;
+}
+
+.main-description {
+  width: 300px;
+  padding: 25px;
+  margin: auto;
+  color: white;
+  text-align: center;
+}
+
+.profile-picture {
+  width: 175px;
+  height: 185px;
+  border-radius: 50%;
+  border-color: white;
+  box-shadow: 7px 7px 3px rgb(0, 0, 0);
+  margin: auto;
+}
+
+.projects {
+  display: block;
+  width: 700px;
+  border: 20px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid white;
+}
+
+.container {
+  width: 500px;
+  position: relative;
+
+  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card {
+  background-color: white;
+}
+
+.long-card {
+  background-color: white;
+  background-image: url("images/23678-snow.jpg")
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
